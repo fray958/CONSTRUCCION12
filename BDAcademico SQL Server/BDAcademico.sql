@@ -1,6 +1,6 @@
 -- Base de Datos Academico
 -- Hugo Espetia
-
+--Fray Salcedo Ramos
 use master
 go
 --------------------------------------------------------------------------------------------
@@ -111,9 +111,9 @@ go
 
 --------------------------------------------------------------------------------------------
 --insercion de carrera
-insert into TCarrera Values ('C01','Ingeniería de Sistemas')
-insert into TCarrera values ('C02','Ingeniería Industrial')
-insert into TCarrera values ('C03','Ingeniería Civil')
+insert into TCarrera Values ('C01','IngenierÃ­a de Sistemas')
+insert into TCarrera values ('C02','IngenierÃ­a Industrial')
+insert into TCarrera values ('C03','IngenierÃ­a Civil')
 go
 
 
