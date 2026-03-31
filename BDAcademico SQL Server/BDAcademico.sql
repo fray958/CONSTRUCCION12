@@ -4,11 +4,8 @@
 use master
 go
 --------------------------------------------------------------------------------------------
-if DB_ID('BDAcademico') is not null
-   drop database BDAcademico
-go
-create database BDAcademico
-go
+
+--Mensaje eliminado en la RAMA1
 --------------------------------------------------------------------------------------------
 use BDAcademico
 go
@@ -111,9 +108,9 @@ go
 
 --------------------------------------------------------------------------------------------
 --insercion de carrera
-insert into TCarrera Values ('C01','Ingeniería de Sistemas')
-insert into TCarrera values ('C02','Ingeniería Industrial')
-insert into TCarrera values ('C03','Ingeniería Civil')
+insert into TCarrera Values ('C01','Ingenierï¿½a de Sistemas')
+insert into TCarrera values ('C02','Ingenierï¿½a Industrial')
+insert into TCarrera values ('C03','Ingenierï¿½a Civil')
 go
 
 
